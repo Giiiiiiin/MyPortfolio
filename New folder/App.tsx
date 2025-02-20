@@ -64,7 +64,19 @@ export default function App() {
             with others, but never forgets the gacha games that let him live.
           </Text>
 
+          <Text style={[styles.title, { color: theme.text }]}>Skills</Text>
+          <Text style={[styles.text, { color: theme.text }]}>C++</Text>
+          <Text style={[styles.text, { color: theme.text }]}>C#</Text>
+          <Text style={[styles.text, { color: theme.text }]}>JavaScript</Text>
+          <Text style={[styles.text, { color: theme.text }]}>Python</Text>
+          <Text style={[styles.text, { color: theme.text }]}>PHP</Text>
+          <Text style={[styles.text, { color: theme.text }]}>Construct</Text>
+          <Text style={[styles.text, { color: theme.text }]}>Unity</Text>
+          <Text style={[styles.text, { color: theme.text }]}>Story Writer</Text>
+          <Text style={[styles.text, { color: theme.text }]}>Gacha Luck</Text>
+
           {/* Clickable Links */}
+          <Text style={[styles.title, { color: theme.text }]}>Socials</Text>
           <Text style={[styles.linkTitle, { color: theme.accent }]}>GitHub:</Text>
           <TouchableOpacity onPress={() => Linking.openURL('https://github.com/Giiiiiiin')}>
             <Text style={[styles.link, { color: theme.accent }]}>https://github.com/Giiiiiiin</Text>
